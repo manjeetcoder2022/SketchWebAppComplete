@@ -1,0 +1,64 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+h1{
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+h1 button{
+    float: right;
+    margin: 2px;
+}
+h3{
+    font-size: 22px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+#random_sketch{
+    color: red !important;
+}
+#text_{
+    float: left;
+    display: inline-block;
+}
+#score{
+    float: left;
+    font-weight: bold;
+    color: green;
+  display: inline-block;
+  margin-top: 20px;
+}
+#timer{
+    float: right;
+    font-weight: bold;
+    color: red;
+    margin: 10px;
+}
+
+
+canvas{
+
+    background-color: white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    margin-top: 250px;
+}
+@keyframes example {
+    from{box-shadow: 2px 2px 38px red;}
+    to{box-shadow: 2px 2px 38px orange;}
+}
+
+#modal-body img{
+    width: 500px;
+    
+}
+#user_sketch , #confidence{
+    color:red
+}
